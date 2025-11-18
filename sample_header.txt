@@ -1,0 +1,13 @@
+Received: from suspicious-mail.ru (unknown [185.20.10.150])
+    by mail-server.legitcompany.com (Postfix) with ESMTP id 528E783300
+    for <yourname@legitcompany.com>; Tue, 18 Nov 2025 11:57:00 +0530 (IST)
+Received-SPF: fail (mail-server.legitcompany.com: domain of support@paypal.com does not designate 185.20.10.150 as permitted sender)
+    receiver=mail-server.legitcompany.com; client-ip=185.20.10.150; envelope-from="support@paypal.com"; helo=suspicious-mail.ru;
+Authentication-Results: mail-server.legitcompany.com;
+    spf=fail (sender IP is 185.20.10.150) smtp.mailfrom=support@paypal.com; dkim=none (message not signed)
+From: PayPal Service <support@paypal.com>
+Subject: Action Required: Your Account Has Been Locked - Reference #PP-7833
+Date: Tue, 18 Nov 2025 11:57:00 +0530
+Reply-To: security-update@scamsite.biz
+Content-Type: text/plain; charset="utf-8"
+X-Mailer: Custom Phishing Script
